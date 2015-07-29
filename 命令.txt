@@ -1,0 +1,18 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+然后选一个文件夹，
+cd 后  
+用git  clone 【url】 把项目克隆下来
+然后 git remote 应该能看到当前远程仓库
+一般默认为 origin 
+然后  git pull 
+先拉取一下远程仓库最新代码
+然后你在本地修改一些东西
+git status
+git add --all
+git commit -m "初次提交"
+git push origin master
+按顺序执行这些
+这个过程中  pull 和 push 会要求你输入 你的github的帐号名和密码.
+
+---以上内容是  某天 提供 。
