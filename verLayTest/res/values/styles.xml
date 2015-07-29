@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+ <style name="OverMenuViewDefaultStyle">
+        <item name="overmenu_activateOnLongPress">false</item>
+        <item name="overmenu_menuStyle">@style/OverMenuLayoutDefaultStyle</item>
+        <item name="android:inAnimation">@anim/overmenu_fade_in</item>
+        <item name="android:outAnimation">@anim/overmenu_fade_out</item>
+    </style>
+
+    <style name="OverMenuLayoutDefaultStyle">
+        <item name="android:background">@drawable/overmenu_default_background</item>
+        <item name="overmenu_textPaddingHorizontal">0dip</item>
+        <item name="overmenu_animateItems">true</item>
+        <item name="android:verticalGap">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:inAnimation">@anim/overmenu_textswitcher_in</item>
+        <item name="android:outAnimation">@anim/overmenu_textswitcher_out</item>
+        <item name="overmenu_selectedTextBackground">@drawable/overmenu_selectedtext_background</item>
+    </style> 
+<!--     <style name="OverMenuLayoutDefaultStyle"> -->
+<!--         <item name="android:background">@drawable/overmenu_default_background</item> -->
+<!--         <item name="overmenu_textPaddingHorizontal">8dip</item> -->
+<!--         <item name="overmenu_textGravity">center</item> -->
+<!--         <item name="overmenu_animateItems">true</item> -->
+<!--         <item name="android:verticalGap">3dip</item> -->
+<!--         <item name="android:paddingLeft">4dip</item> -->
+<!--         <item name="android:paddingRight">4dip</item> -->
+<!--         <item name="android:paddingTop">6dip</item> -->
+<!--         <item name="android:paddingBottom">6dip</item> -->
+<!--         <item name="android:inAnimation">@anim/overmenu_textswitcher_in</item> -->
+<!--         <item name="android:outAnimation">@anim/overmenu_textswitcher_out</item> -->
+<!--         <item name="overmenu_selectedTextBackground">@drawable/overmenu_selectedtext_background</item> -->
+<!--     </style>  -->
+</resources>
